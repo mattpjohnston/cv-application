@@ -43,6 +43,8 @@ function PracticalExperience() {
             <input
               id="companyName"
               name="companyName"
+              placeholder="e.g. Kainos"
+              required
               value={formData.companyName}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -58,6 +60,8 @@ function PracticalExperience() {
             <input
               id="positionTitle"
               name="positionTitle"
+              placeholder="e.g. Software Engineer"
+              required
               value={formData.positionTitle}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -74,6 +78,8 @@ function PracticalExperience() {
               id="mainResponsibilities"
               name="mainResponsibilities"
               rows="4"
+              placeholder="e.g. Developed and maintained full-stack web applications using React and Node.js..."
+              required
               value={formData.mainResponsibilities}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -90,6 +96,7 @@ function PracticalExperience() {
               id="dateFrom"
               name="dateFrom"
               type="date"
+              required
               value={formData.dateFrom}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -106,6 +113,7 @@ function PracticalExperience() {
               id="dateUntil"
               name="dateUntil"
               type="date"
+              required
               value={formData.dateUntil}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"

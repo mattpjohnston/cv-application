@@ -43,6 +43,8 @@ function Education() {
               name="school"
               value={formData.school}
               onChange={handleChange}
+              placeholder="e.g. Queen's University Belfast"
+              required
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
             />
           </div>
@@ -58,6 +60,8 @@ function Education() {
               name="title"
               value={formData.title}
               onChange={handleChange}
+              placeholder="e.g. BSc Computer Science"
+              required
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
             />
           </div>
@@ -74,6 +78,7 @@ function Education() {
               type="date"
               value={formData.date}
               onChange={handleChange}
+              required
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
             />
           </div>

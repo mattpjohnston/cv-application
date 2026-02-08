@@ -42,6 +42,8 @@ function GeneralInfo() {
             <input
               id="name"
               name="name"
+              placeholder="Jane Smith"
+              required
               value={formData.name}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -58,6 +60,8 @@ function GeneralInfo() {
               id="email"
               name="email"
               type="email"
+              placeholder="jane.smith@email.co.uk"
+              required
               value={formData.email}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
@@ -74,6 +78,8 @@ function GeneralInfo() {
               id="phone"
               name="phone"
               type="tel"
+              placeholder="07700 900000"
+              required
               value={formData.phone}
               onChange={handleChange}
               className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
